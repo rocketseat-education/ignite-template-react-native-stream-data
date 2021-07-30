@@ -1,0 +1,34 @@
+{
+  "name": "stream.data",
+  "displayName": "stream.data",
+  "expo": {
+    "name": "stream.data",
+    "scheme": "stream.data",
+    "slug": "streamData",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "translucent": true,
+      "backgroundColor": "#00000000"
+    },
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#9146FF"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFF"
+      },
+      "package": "com.rocketseat.twitchlogin"
+    },
+    "ios": {
+      "bundleIdentifier": "com.rocketseat.twitchlogin"
+    }
+  }
+}
