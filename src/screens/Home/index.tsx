@@ -1,7 +1,7 @@
 import { useTheme } from 'styled-components';
 import React, { useEffect, useState } from 'react';
 import { Alert, FlatList, Modal, ActivityIndicator, View } from 'react-native';
-import { Feather } from '@expo/vector-icons'
+import Feather from 'react-native-vector-icons/Feather'
 
 import { TopGamesCard } from '../../components/TopGamesCard';
 import { useAuth } from '../../hooks/useAuth';

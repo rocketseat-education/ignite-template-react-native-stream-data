@@ -1,6 +1,6 @@
 import React from 'react';
 import { useTheme } from 'styled-components';
-import { Fontisto } from '@expo/vector-icons'
+import Fontisto from 'react-native-vector-icons/Fontisto'
 import { ActivityIndicator, Alert, Modal, View } from 'react-native';
 
 import { useAuth } from '../../hooks/useAuth';
