@@ -24,11 +24,7 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#FFF"
-      },
-      "package": "com.rocketseat.twitchlogin"
-    },
-    "ios": {
-      "bundleIdentifier": "com.rocketseat.twitchlogin"
+      }
     }
   }
 }
