@@ -1,7 +1,7 @@
 import { useTheme } from 'styled-components';
 import React, { useEffect, useState } from 'react';
 import { Alert, FlatList, Modal, ActivityIndicator, View } from 'react-native';
-import Feather from 'react-native-vector-icons/Feather'
+import { Feather } from '@expo/vector-icons'
 
 import { TopGamesCard } from '../../components/TopGamesCard';
 import { useAuth } from '../../hooks/useAuth';
@@ -97,6 +97,10 @@ export function Home() {
     getTopGames();
     getUserFollowedStreams();
   }, [])
+
+  // const signOutButtonProps = {
+  //   onPress: your-signOut-function
+  // }
 
   return (
     <Container
